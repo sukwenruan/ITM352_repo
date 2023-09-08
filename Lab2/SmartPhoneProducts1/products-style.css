@@ -20,7 +20,7 @@ main {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    background: url('/SmartPhoneProducts1/images/phone_globe.jpg') no-repeat center;
+    background: url('/ITM352_repo/Lab2/SmartPhoneProducts1/images/phone_globe.jpg') no-repeat center;
     color: black;
 }
 /* Form styling */  
