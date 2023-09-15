@@ -2,9 +2,20 @@
 <head>
     <title>Smartphone Products</title>
     <link rel="stylesheet" href="products-style.css">
+    <script>
+        let store_name="Sukwen Ruan";
+        let hits=2;
+        let spins=1;
+    </script>
+
 </head>
 <body>
-    <h1>Used Smartphone Store</h1>
+    
+    <h1>
+        <script>
+        document.write(store_name+"'s Used Smart Phone Store");
+        </script>
+    </h1>
 
     <div><main> 
         <section class="item" onmouseover="this.className='item rotate';" onclick="this.className='item';">
@@ -34,6 +45,11 @@
         </section>
     </main></div>
 
-    <h1>Your One Stop Phone Shop</h1>
+    <h1>
+        <script>
+            document.write("Your One Stop Phone Shop" + " - " + store_name+"'s")
+        </script>
+    </h1>
+    
 </body>
 </html>
