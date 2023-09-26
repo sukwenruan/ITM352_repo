@@ -29,7 +29,6 @@ win_span.innerHTML=over_half;
 spins_span.innerHTML = spins; 
 hit_spin_span.innerHTML=Number(hits/spins).toFixed(2)
 
-
 // -- Winning progress depends on hits/spins
 hits_spins_ratio = hits/spins;
 if (hits_spins_ratio > 0 && hits_spins_ratio < 0.25) {
@@ -37,6 +36,7 @@ if (hits_spins_ratio > 0 && hits_spins_ratio < 0.25) {
     } else if (hits_spins_ratio >= 0.25 && hits_spins_ratio < 0.5) {
         progress = 'Almost there!';
     } else if (hits_spins_ratio >= 0.5 && hits<spins) {
+        progress = 'You win!';
 } else {
     progress = 'Get going!';
 }
@@ -73,7 +73,6 @@ else {
 win_span.innerHTML=progress;
 }*/
 
-
 //changes item name to remove rotate for images and updates hits & spins
 function resetClassName(element) {
     if(element.className=='item rotate') {
@@ -100,6 +99,7 @@ if (hits_spins_ratio > 0 && hits_spins_ratio < 0.25) {
     } else if (hits_spins_ratio >= 0.25 && hits_spins_ratio < 0.5) {
         progress = 'Almost there!';
     } else if (hits_spins_ratio >= 0.5 && hits<spins) {
+        progress = 'You win!';
 } else {
     progress = 'Get going!';
 }
