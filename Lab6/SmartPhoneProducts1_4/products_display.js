@@ -11,7 +11,7 @@ let over_half=false;
 hits_span.innerHTML = hits;
 spins_span.innerHTML = spins;
 
-//changes item name to rotate for images
+//changes item name to rotate for images and updates hits & spins
 function changeClassName(element) {
     element.className = 'item rotate';
     spins=spins+1;
@@ -27,7 +27,7 @@ function changeClassName(element) {
     hit_spin_span.innerHTML=Number(hits/spins).toFixed(2)
 }
 
-//changes item name to remove rotate for images
+//changes item name to remove rotate for images and updates hits & spins
 function resetClassName(element) {
     element.className = 'item';
     hits=hits+=2;
