@@ -18,7 +18,7 @@ document.write("<table>");
 //document.write("<tr><th>Product #</th><th>Quantity</th></tr>");
 
 //Lab 8 3.2
-document.write("<tr><th>Product #</th><th>Quantity</th><th>Extended Cost</th></tr>");
+document.write("<tr><th>Product #</th><th>Name</th><th>Price</th><th>Quantity</th><th>Extended Cost</th></tr>");
 
 for (let i=0; i < product_quantities.length; i++) {
     let quantity = product_quantities[i];
