@@ -2,9 +2,9 @@
 let product_quantities=[2,1,1,3,12];
 
 //Lab8 2.3
-product_quantities.push(3);
+product_quantities.push(3); //adding a quantity of 3 for the product
 //alert("The size of the products array is: "+product_quantities.length);
-product_quantities.pop();
+product_quantities.pop(); //removes last element (quantity) from the array
 
 //Lab8 2.2 
 alert("The size of the products array is: "+product_quantities.length);
