@@ -66,6 +66,6 @@ function deleteLastRow () {
     let rowCount = table.rows.length; //gives row count for table
 
     if (rowCount > 1) {
-        table.deleteRow(rowCoun-1); //deletes last row
+        table.deleteRow(rowCount-1); //deletes last row
     };
 }
