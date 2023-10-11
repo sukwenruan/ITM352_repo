@@ -11,6 +11,7 @@ let over_half=false;
 hits_span.innerHTML = hits;
 spins_span.innerHTML = spins;
 
+/*
 //POKE8 variables
 let name1 = "HTC";
 let price1 = 40.00;
@@ -31,7 +32,50 @@ let image4 = "images/Samsung.jpg"
 let name5 = "Blackberry";
 let price5 = 10.00;
 let image5 = "images/Blackberry.jpg";
+*/
 
+//POKE9 #2
+const product1 = {
+    brand: "HTC",
+    price: "40.00",
+    image:"images/HTC.jpg"
+};
+const product2 = {
+    brand: "Apple",
+    price: "75.00",
+    image: "images/iphone-3gs.jpg"
+};
+const product3 = {
+    brand: "Nokia",
+    price: "35.00",
+    image: "images/Nokia.jpg"
+};
+const product4 = {
+    brand: "Samsung",
+    price: "45.00",
+    image: "images/Samsung.jpg"
+};
+const product5 = {
+    brand: "Blackberry",
+    price: "10.00",
+    image: "images/Blackberry.jpg"
+};
+
+//POKE 9 #3 
+const products = [product1, product2, product3, product4, product5];
+
+//POKE9 #4
+for (i = 0; i < products.length; i++) {
+    const product = products[i];
+    document.querySelector('.main').innerHTML += `
+    <section class="item" onmouseover="changeClassName(this);" onclick="resetClassName(this);">
+    <h2>${product.brand}</h2>
+    <p>$${product.price}</p>
+    <img src="${product.image}"/> 
+    </section>     
+`}
+
+/*
 //POKE8 #4 and #5 - Create a for-loop using string templates
 for(let i=1; eval("typeof name" +i) !='undefined'; i++) {
     document.querySelector('.main').innerHTML += `
@@ -42,6 +86,7 @@ for(let i=1; eval("typeof name" +i) !='undefined'; i++) {
     </section>  
 `
 }
+*/
 
 //changes item name to rotate for images and updates hits & spins
 function changeClassName(element) {
