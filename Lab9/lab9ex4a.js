@@ -1,0 +1,28 @@
+//Define attributes variable
+
+let attributes  =  "Sukwen;19;19.5;18.5";
+
+let pieces = attributes.split(";");
+for (let i = 0; i < pieces.length; i++) {
+    console.log(`${pieces[i]}, ${typeof pieces[i]}`);
+}
+
+//invert pieces back into string
+let invert=pieces.join(",");
+console.log(invert);
+
+//Lab9 4a
+function isNonNegInt(q) {
+    let errors = [];
+  
+    if (Number(q) != q) errors.push('Not a number!');
+    if (q < 0) errors.push('Negative value!');
+    if (parseInt(q) != q) errors.push('Not an integer!');
+  
+    return (errors.length === 0);
+  }
+  
+  // Loop through the pieces array and test each element
+  for (let i = 0; i < pieces.length; i++) {
+    console.log(`${pieces[i]}, ${isNonNegInt(pieces[i])}`);
+  }
