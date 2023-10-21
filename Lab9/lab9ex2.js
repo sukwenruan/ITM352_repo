@@ -16,4 +16,4 @@ console.log(invert);
 //let parts = attributes.split(';');
 
 // Output extractions to console
-//console.log(parts);
+//console.log(parts); 

@@ -8,7 +8,7 @@ function junk1() {
 //#15
 function junk2() {
   for(let i2=1; i2<=2; i2++){console.log(i2);}
-  return `i2 is ${i2}`;
+  return `i2 is ${i2}`; 
 };
 */
 

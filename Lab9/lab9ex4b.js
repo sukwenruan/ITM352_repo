@@ -11,7 +11,7 @@ for (let i = 0; i < pieces.length; i++) {
 
 //invert pieces back into string
 let invert=pieces.join(",");
-console.log(invert);
+console.log(invert); 
 */
 
 //Lab9 4a

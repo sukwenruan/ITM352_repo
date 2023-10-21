@@ -7,7 +7,7 @@ for (let i = 0; i < pieces.length; i++) {
     console.log(`${pieces[i]}, ${typeof pieces[i]}`);
 }
 
-//invert pieces back into string
+//invert pieces back into string 
 let invert=pieces.join(",");
 console.log(invert);
 

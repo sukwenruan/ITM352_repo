@@ -31,7 +31,7 @@ for (let i = 0; i < pieces.length; i++) {
   console.log(`Element "${pieces[i]}" errors: ${checksForInt(pieces[i], true)}`);
 }
 
-/*
+/* 
 //part 6 define a checkIt function with 1st parameter item and 2nd parameter index
 function checkIt(item, index) {
     console.log(`part ${index} is ${(checksForInt(item)?'a':'not a')} quantity`);
