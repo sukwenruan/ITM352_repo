@@ -7,5 +7,5 @@ function calculateTax(monthly_sales, tax_rate) {
     }
     const tax_owing = monthly_sales.map(sales => sales*tax_rate);
     return tax_owing;
-};
+}
 
