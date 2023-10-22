@@ -13,8 +13,8 @@ th, td {
 }
 th {
     font-size: 20px;
-    border: 2px dotted purple;
-    background-color: rgb(223, 190, 240)
+    border: 2px double purple;
+    background-color: rgb(219, 190, 233)
 }
 tfoot {
     font-weight: bold;
