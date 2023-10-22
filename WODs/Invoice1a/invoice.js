@@ -1,46 +1,46 @@
 //Product Data
 
     // Product 1
-        var item1 = 'Gillette Sensor 3 Razor';
-        var quantity1 = 2;
-        var price1 = 1.23;
+        let item1 = 'Gillette Sensor 3 Razor';
+        let quantity1 = 2;
+        let price1 = 1.23;
 
     // Product 2
-        var item2 = 'Barbasol Shaving Cream';
-        var quantity2 = 1;
-        var price2 = 2.64;
+        let item2 = 'Barbasol Shaving Cream';
+        let quantity2 = 1;
+        let price2 = 2.64;
         
     // Product 3
-        var item3 = 'Nautica Cologne';
-        var quantity3 = 1;
-        var price3 = 6.17;
+        let item3 = 'Nautica Cologne';
+        let quantity3 = 1;
+        let price3 = 6.17;
 
     // Product 4
-        var item4 = 'Rubbing Alcohol';
-        var quantity4 = 3;
-        var price4 = 0.98;
+        let item4 = 'Rubbing Alcohol';
+        let quantity4 = 3;
+        let price4 = 0.98;
 
     // Product 5
-        var item5 = 'Colgate Classic Toothbrush';
-        var quantity5 = 12;
-        var price5 = 1.89;
+        let item5 = 'Colgate Classic Toothbrush';
+        let quantity5 = 12;
+        let price5 = 1.89;
 
 //Compute extended prices
-var extended_price1 = quantity1*price1;
-var extended_price2 = quantity2*price2;
-var extended_price3 = quantity3*price3;
-var extended_price4 = quantity4*price4;
-var extended_price5 = quantity5*price5;
+let extended_price1 = quantity1*price1;
+let extended_price2 = quantity2*price2;
+let extended_price3 = quantity3*price3;
+let extended_price4 = quantity4*price4;
+let extended_price5 = quantity5*price5;
 
 //Compute subtotal
-var subtotal = extended_price1 + extended_price2 + extended_price3 + extended_price4 + extended_price5
+let subtotal = extended_price1 + extended_price2 + extended_price3 + extended_price4 + extended_price5
 
 //Compute sales tax
-var tax_rate = 0.0575;
-var tax = tax_rate*subtotal;
+let tax_rate = 0.0575;
+let tax = tax_rate*subtotal;
 
 //Compute grand total
-var total = subtotal + tax
+let total = subtotal + tax
 
 //Populate table rows with DOM manipulation
 let table = document.getElementById('invoiceTable');
