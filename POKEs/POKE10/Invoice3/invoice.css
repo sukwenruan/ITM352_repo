@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    width: 100%
+}
+
+table, td {
+    border: 1px solid purple;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    font-size: 20px;
+    border: 2px dotted purple;
+    background-color: rgb(223, 190, 240)
+}
+tfoot {
+    font-weight: bold;
+}
