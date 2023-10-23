@@ -10,8 +10,8 @@ function updateQuantityMessage(textbox) {
     } else {
         quantityMessage.innerHTML = textbox.value;
     }
-}
 
+}
 function validateQuantity(quantity) {
     let errorMessage = "";
 
@@ -40,7 +40,7 @@ function displayPurchase() {
 
     let validationMessage = validateQuantity(quantity);
 
-    if(validationMessage =="") {
+    if (validationMessage == "") {
         let message = `Thank you for ordering ${quantity} things!`;
         document.body.innerHTML = message;
     } else {
