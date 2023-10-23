@@ -9,7 +9,7 @@ function formSubmission() {
         let message = `Thank you for ordering ${quantity} things!`;
         document.body.innerHTML = message;
     }
-    return false; // prevents form submission
+    return false; //prevents form submission
 }
 
 function validateQuantity(quantity) {
