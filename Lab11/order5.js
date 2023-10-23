@@ -6,8 +6,7 @@ function formSubmission() {
     if (validationMessage!=="") {
         document.getElementById("invalidQuantity").innerHTML = validationMessage;
     } else {
-        let message = `Thank you for ordering ${quantity} things!`;
-        document.body.innerHTML = message;
+       window.location.href = `display_purchase.html?qty_textbox=${quantity}`
     }
     return false; //prevents form submission
 }
