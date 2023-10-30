@@ -1,0 +1,75 @@
+/* General */ 
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+/* Styling the products display */ 
+img {
+    width: 200px;
+    height: 200px;
+    opacity: 100%;
+}
+
+/* Typography */  
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+/* block styling */ 
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: url('images/phone_globe.jpg');
+    background-size: cover;
+    color: black;
+}
+/* Form styling */  
+div {
+    border: 5px solid black;
+    display: flex;
+}
+.rotate img
+{
+  animation: rotation .3s infinite linear;
+}
+
+.button {
+  align-items: center;
+}
+
+.item {
+  font-weight: bolder;
+  font-size: 19px;
+  text-align: center;
+  padding: 20px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.purchase-btn {
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 20px auto;
+  background-color: rgb(177, 160, 207);
+  color: white;
+  border: double;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.purchase-btn:hover {
+  background-color: rgb(212, 184, 227);
+}
+
