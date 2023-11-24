@@ -20,7 +20,7 @@ if (fs.existsSync(filename)) {
 }
 
 //Lab14 part 4
-let usernme = 'newuser';
+let username = 'newuser';
 user_reg_data[username] = {};
 user_reg_data[username].password = 'newpass';
 user_reg_data[username].email = 'newuser@user.com';
